@@ -1,6 +1,6 @@
 # MATLAB Codes for Bachelor Thesis
 
-This repository contains MATLAB scripts and functions developed for polyhedron plotting and calculation, as part of a Bachelor thesis project. The codebase is designed to support geometric visualization and computational tasks related to polyhedra, including:
+This repository contains MATLAB scripts and functions developed for polyhedron plotting and calculation, particularly cuboid and prism, as part of a Bachelor thesis project. The codebase is designed to support geometric visualization and computational tasks related to polyhedra, including:
 
 - Plotting various types of polyhedra in 2D and 3D
 - Calculating properties such as volume, surface area, vertices, edges, and faces
@@ -31,16 +31,6 @@ This repository contains MATLAB scripts and functions developed for polyhedron p
 
 ## Repository Structure
 
-- `polyhedron_plot.m`: Script for visualizing polyhedra.
-- `calculate_properties.m`: Functions for property calculations.
-- Other auxiliary scripts for supporting geometry operations.
-
-## License
-
-This repository is released under the MIT License.
-
-## Author
-
-- Quang Le ([@2002Quang](https://github.com/2002Quang))
-
-Feel free to contribute, report issues, or suggest improvements!
+- `plotCuboid.m` & `plotPrism.m`: Script for visualizing polyhedra.
+- `_edge.m` & `_face.m` & `_volume.m`: Functions for property calculations.
+- `cut_cuboid.m` & `cut_prism.m`: Other auxiliary scripts for supporting geometry operations.
